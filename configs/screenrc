@@ -1,4 +1,5 @@
 defshell -bash
+defscrollback 100000
 
 screen -t tidal
 select 0

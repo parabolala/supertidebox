@@ -15,6 +15,8 @@
 
 (add-hook 'isearch-update-post-hook 'redraw-display)
 
+(setq tidal-boot-script-path "/root/.cabal/store/ghc-9.0.1/tidal-1.7.8-48e0f14f19b16a5c1577c4f83e06d4e8abb5701f16c4011363bea930cd1247fd/share/BootTidal.hs")
+
 (add-to-list 'load-path "/repos/tidal")
 (add-to-list 'load-path "/work")
 (require 'haskell-mode)
